@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 20.7086 14.6825" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 129">
+<path id="Vector 3655" d="M12.011 4.49071L19.2086 4.49071" stroke="url(#paint0_linear_0_185)" stroke-width="3" stroke-linecap="round"/>
+<path id="Vector 3656" d="M2.20424 13.1825L19.2086 13.1825" stroke="url(#paint1_linear_0_185)" stroke-width="3" stroke-linecap="round"/>
+<path id="Rectangle 17874" d="M1.5 3.77965L3.86574 6.14538L7.64544 2.36567" stroke="url(#paint2_linear_0_185)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_185" x1="12.011" y1="4.99071" x2="19.2086" y2="4.99071" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#C9FFE3"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_185" x1="2.20424" y1="13.6825" x2="19.2086" y2="13.6825" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#C9FFE3"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_185" x1="2.68287" y1="4.96251" x2="6.46258" y2="1.18281" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#C9FFE3"/>
+</linearGradient>
+</defs>
+</svg>

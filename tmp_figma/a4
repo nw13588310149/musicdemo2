@@ -1,0 +1,7 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame">
+<circle id="Ellipse 11" cx="10" cy="10" r="7.46473" stroke="var(--stroke-0, #CECED1)"/>
+<ellipse id="Ellipse 12" cx="10" cy="10" rx="2.93013" ry="7.46473" stroke="var(--stroke-0, #CECED1)"/>
+<ellipse id="Ellipse 13" cx="10.0001" cy="10.0004" rx="2.93013" ry="7.46473" transform="rotate(90 10.0001 10.0004)" stroke="var(--stroke-0, #CECED1)"/>
+</g>
+</svg>

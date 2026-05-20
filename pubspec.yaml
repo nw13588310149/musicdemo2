@@ -1,0 +1,219 @@
+name: the_road_of_music_flutter
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 2.0.5+2
+
+environment:
+  sdk: ^3.11.4
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  # 本地化：提供 Material / Cupertino / Widgets 三套 LocalizationsDelegates。
+  # 不引入它，iOS/iPadOS 上 TextField 长按 / Live Text 弹出的系统编辑菜单
+  # （Cut / Copy / Paste / Scan Text…）会一直走英文。配合 MaterialApp 上的
+  # supportedLocales + locale=zh-CN 强制中文。
+  flutter_localizations:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  flutter_svg: ^2.2.4
+  dio: ^5.9.0
+  web_socket_channel: ^3.0.3
+  shared_preferences: ^2.5.3
+  media_kit: ^1.2.1
+  media_kit_video: ^1.3.0
+  media_kit_libs_video: ^1.0.5
+  flutter_soloud: ^4.0.2
+  audio_session: ^0.2.3
+  # 录音系统统一选用以下两个最成熟的纯音频插件，全平台单一代码路径：
+  #
+  # - `record`        ：录音端。AudioRecorder 实例提供
+  #                       onStateChanged() / onAmplitudeChanged() 两条
+  #                       低频流，原生端写 .m4a 临时文件，Web 端走
+  #                       MediaRecorder 输出 blob URL。stop() 返回的
+  #                       路径 / URL 由我们自己读 bytes 上传。
+  # - `just_audio`    ：播放端。AudioPlayer 跨平台一致：iOS/macOS 走
+  #                       AVPlayer、Android 走 ExoPlayer、Web 走
+  #                       HTMLAudioElement。setUrl() 同时接受 https
+  #                       URL、file:// 路径和 blob: URL，省掉了
+  #                       原本「native + media_kit fallback」的双引擎
+  #                       负担。
+  #
+  # 抛弃的依赖：`audio_waveforms` —— 该插件 iPad 上 setFinishMode 生命
+  # 周期、AudioFileWaveforms 在 Web 上没有后端、preparePlayer 频繁报
+  # MissingPluginException 等问题反复触发用户痛点，已在重构中替换为
+  # 自绘 CustomPainter（live amplitudes + preview 静态条 + 进度光标）。
+  record: ^6.1.2
+  just_audio: ^0.10.5
+  pitch_detector_dart: ^0.0.7
+  web: ^1.1.1
+  photo_view: ^0.15.0
+  pdfrx: ^2.2.24
+  flutter_widget_from_html_core: ^0.17.2
+  carousel_slider: ^5.0.0
+  cached_network_image: ^3.4.1
+  file_picker: ^8.3.7
+  chinese_font_library: ^1.2.0
+  # 个推 GeTui 推送（iOS / Android / HarmonyOS）。与 1.0 uniPush 同源，
+  # 后端 reportCid + 推送配置可直接沿用。Web / 桌面通过条件 import 自动
+  # 回退到 no-op，不会触发原生绑定缺失错误。
+  getuiflut: ^0.2.41
+  permission_handler: ^12.0.1
+  camera: ^0.11.1
+  image: ^4.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  web:
+    generate: true
+    image_path: assets/icon/app_icon.png
+    background_color: "#1eb8b0"
+    theme_color: "#1eb8b0"
+  windows:
+    generate: true
+  macos:
+    generate: true
+  image_path: assets/icon/app_icon.png
+  remove_alpha_ios: true
+  background_color_ios: "#1eb8b0"
+  min_sdk_android: 21
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/auth/
+    - assets/images/shell/
+    - assets/images/shell/leftNav/
+    - assets/images/shell/nav_v2/
+    - assets/images/shell/topbar_v2/
+    - assets/images/home/
+    - assets/images/home/v2/
+    - assets/images/home/dictation/
+    - assets/images/404/
+    - assets/images/school/
+    - assets/images/aichat/
+    - assets/images/aichat/v2/
+    - assets/images/video/
+    - assets/images/video/v2/
+    - assets/images/yunpan/
+    - assets/images/courseware/
+    - assets/images/smart_dictation/
+    - assets/images/smart_dictation/v2/
+    - assets/images/smart_dictation/figma/
+    - assets/images/info/
+    - assets/images/schoolA/
+    - assets/images/adminHome/
+    - assets/images/face/
+    - assets/images/sound/
+    - assets/images/music/
+    - assets/images/note/
+    - assets/images/avtor/
+    - assets/images/piano/
+    - assets/audio/music_companion/metronome/
+    - assets/audio/music_companion/metronome/beat0/
+    - assets/audio/music_companion/metronome/beat2/
+    - assets/audio/music_companion/metronome/beat3/
+    - assets/audio/smart_dictation/piano/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  fonts:
+    - family: Harmony
+      fonts:
+        - asset: assets/fonts/HarmonyOS_Sans_SC_Regular.ttf
+        - asset: assets/fonts/HarmonyOS_Sans_SC_Medium.ttf
+          weight: 500
+    # PingFang SC 使用 OTF（CFF 轮廓，最接近 Apple 原版字面率与粗细）。
+    # 字重映射严格按 Figma 设计稿：Regular = w400，Medium = w500，Semibold = w600。
+    # PingFang 原版无 Bold/Heavy 字重，最重即 Semibold；上层代码不要写 w700+，
+    # 否则会缺少匹配文件，渲染回退到系统中文字体，视觉不可控。
+    - family: PingFang SC
+      fonts:
+        - asset: assets/fonts/ttf/PingFangSC-Ultralight.otf
+          weight: 100
+        - asset: assets/fonts/ttf/PingFangSC-Thin.otf
+          weight: 200
+        - asset: assets/fonts/ttf/PingFangSC-Light.otf
+          weight: 300
+        - asset: assets/fonts/ttf/PingFangSC-Regular.otf
+          weight: 400
+        - asset: assets/fonts/ttf/PingFangSC-Medium.otf
+          weight: 500
+        - asset: assets/fonts/ttf/PingFangSC-Semibold.otf
+          weight: 600
+    # Manrope：
+    # • w500（Medium）—— 首页右侧周课表的日期数字（9 / 10 / 11…）
+    # • w800（变体字静态映射）—— 智慧校园等地方的角标 10+ 数字
+    # 注意：Manrope Medium.ttf 文件名带空格，YAML 字符串里照实写即可。
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Manrope-Variable.ttf
+          weight: 800
+    # Barlow：
+    # • 通知卡时间 09:00-09:45 = w600（SemiBold）
+    # • 周卡日期数字 9/10/11... = w500（设计稿 Medium，但 Medium 字重缺失，
+    #   暂以 SemiBold 兼任 w500 槽位，避免落到系统默认字体；待补 Barlow-Medium.ttf）
+    - family: Barlow
+      fonts:
+        - asset: assets/fonts/Barlow-SemiBold.ttf
+          weight: 500
+        - asset: assets/fonts/Barlow-SemiBold.ttf
+          weight: 600
+    # 空白列表等提示文案（设计稿 Inter 16 / 400）
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Variable.ttf
+          weight: 400

@@ -1,0 +1,591 @@
+﻿{
+    "name":  "音乐之路ipad",
+    "lastModified":  "2026-04-27T09:00:10Z",
+    "thumbnailUrl":  "https://s3-alpha.figma.com/thumbnails/17b24e4e-872c-45cb-8dce-ccdf37c9946a?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAQ4GOSFWCQN7MY4DL%2F20260426%2Fus-west-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20260426T120000Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=c8b43f43f23beaebb485d1bc7bcd1e4fb57bcc1ce851a2774111557d7722f915",
+    "version":  "2347060938481838018",
+    "role":  "editor",
+    "editorType":  "figma",
+    "linkAccess":  "inherit",
+    "nodes":  {
+                  "899:14992":  {
+                                    "document":  {
+                                                     "id":  "899:14992",
+                                                     "name":  "智慧校园",
+                                                     "type":  "FRAME",
+                                                     "scrollBehavior":  "SCROLLS",
+                                                     "children":  [
+                                                                      {
+                                                                          "id":  "899:14993",
+                                                                          "name":  "Group 1437254395",
+                                                                          "type":  "GROUP",
+                                                                          "scrollBehavior":  "SCROLLS",
+                                                                          "children":  "   ",
+                                                                          "blendMode":  "PASS_THROUGH",
+                                                                          "clipsContent":  false,
+                                                                          "background":  "",
+                                                                          "fills":  "",
+                                                                          "strokes":  "",
+                                                                          "strokeWeight":  1.0,
+                                                                          "strokeAlign":  "INSIDE",
+                                                                          "backgroundColor":  "@{r=0.0; g=0.0; b=0.0; a=0.0}",
+                                                                          "absoluteBoundingBox":  "@{x=0.0; y=-1208.0; width=1164.0; height=820.0}",
+                                                                          "absoluteRenderBounds":  "@{x=0.0; y=-1208.0; width=1164.0; height=820.0}",
+                                                                          "constraints":  "@{vertical=TOP; horizontal=LEFT}",
+                                                                          "effects":  "",
+                                                                          "interactions":  "",
+                                                                          "complexStrokeProperties":  "@{strokeType=BASIC}"
+                                                                      },
+                                                                      {
+                                                                          "id":  "899:15265",
+                                                                          "name":  "Frame 1912056717",
+                                                                          "type":  "FRAME",
+                                                                          "scrollBehavior":  "SCROLLS",
+                                                                          "children":  " ",
+                                                                          "blendMode":  "PASS_THROUGH",
+                                                                          "clipsContent":  false,
+                                                                          "background":  "",
+                                                                          "fills":  "",
+                                                                          "strokes":  "",
+                                                                          "strokeWeight":  1.0,
+                                                                          "strokeAlign":  "INSIDE",
+                                                                          "backgroundColor":  "@{r=0.0; g=0.0; b=0.0; a=0.0}",
+                                                                          "layoutMode":  "HORIZONTAL",
+                                                                          "counterAxisAlignItems":  "CENTER",
+                                                                          "itemSpacing":  4.0,
+                                                                          "layoutWrap":  "NO_WRAP",
+                                                                          "absoluteBoundingBox":  "@{x=775.0; y=-681.0; width=94.0; height=20.0}",
+                                                                          "absoluteRenderBounds":  "@{x=775.0; y=-681.0; width=94.0; height=20.0}",
+                                                                          "constraints":  "@{vertical=TOP; horizontal=LEFT}",
+                                                                          "layoutSizingHorizontal":  "HUG",
+                                                                          "layoutSizingVertical":  "HUG",
+                                                                          "effects":  "",
+                                                                          "interactions":  "",
+                                                                          "complexStrokeProperties":  "@{strokeType=BASIC}"
+                                                                      },
+                                                                      {
+                                                                          "id":  "899:15271",
+                                                                          "name":  "Group 1437254522",
+                                                                          "type":  "GROUP",
+                                                                          "scrollBehavior":  "SCROLLS",
+                                                                          "children":  "  ",
+                                                                          "blendMode":  "PASS_THROUGH",
+                                                                          "clipsContent":  false,
+                                                                          "background":  "",
+                                                                          "fills":  "",
+                                                                          "strokes":  "",
+                                                                          "rectangleCornerRadii":  "0.0 0.0 0.0 0.0",
+                                                                          "cornerSmoothing":  0.0,
+                                                                          "strokeWeight":  1.0,
+                                                                          "strokeAlign":  "INSIDE",
+                                                                          "backgroundColor":  "@{r=0.0; g=0.0; b=0.0; a=0.0}",
+                                                                          "absoluteBoundingBox":  "@{x=551.0; y=-744.0; width=340.0; height=340.0}",
+                                                                          "absoluteRenderBounds":  "@{x=551.0; y=-744.0; width=340.0; height=340.0}",
+                                                                          "constraints":  "@{vertical=TOP; horizontal=LEFT}",
+                                                                          "effects":  "",
+                                                                          "interactions":  "",
+                                                                          "complexStrokeProperties":  "@{strokeType=BASIC}"
+                                                                      },
+                                                                      {
+                                                                          "id":  "899:15326",
+                                                                          "name":  "Group 1437254521",
+                                                                          "type":  "GROUP",
+                                                                          "scrollBehavior":  "SCROLLS",
+                                                                          "children":  "  ",
+                                                                          "blendMode":  "PASS_THROUGH",
+                                                                          "clipsContent":  false,
+                                                                          "background":  "",
+                                                                          "fills":  "",
+                                                                          "strokes":  "",
+                                                                          "rectangleCornerRadii":  "0.0 0.0 0.0 0.0",
+                                                                          "cornerSmoothing":  0.0,
+                                                                          "strokeWeight":  1.0,
+                                                                          "strokeAlign":  "INSIDE",
+                                                                          "backgroundColor":  "@{r=0.0; g=0.0; b=0.0; a=0.0}",
+                                                                          "absoluteBoundingBox":  "@{x=194.0; y=-780.0; width=340.0; height=376.0}",
+                                                                          "absoluteRenderBounds":  "@{x=194.0; y=-780.0; width=340.0; height=376.0}",
+                                                                          "constraints":  "@{vertical=TOP; horizontal=LEFT}",
+                                                                          "effects":  "",
+                                                                          "interactions":  "",
+                                                                          "complexStrokeProperties":  "@{strokeType=BASIC}"
+                                                                      },
+                                                                      {
+                                                                          "id":  "899:15363",
+                                                                          "name":  "Group 1437254523",
+                                                                          "type":  "GROUP",
+                                                                          "scrollBehavior":  "SCROLLS",
+                                                                          "children":  "  ",
+                                                                          "blendMode":  "PASS_THROUGH",
+                                                                          "clipsContent":  false,
+                                                                          "background":  "",
+                                                                          "fills":  "",
+                                                                          "strokes":  "",
+                                                                          "strokeWeight":  1.0,
+                                                                          "strokeAlign":  "INSIDE",
+                                                                          "backgroundColor":  "@{r=0.0; g=0.0; b=0.0; a=0.0}",
+                                                                          "absoluteBoundingBox":  "@{x=551.0; y=-780.0; width=338.0; height=25.0}",
+                                                                          "absoluteRenderBounds":  "@{x=551.0; y=-780.0; width=338.0; height=25.0}",
+                                                                          "constraints":  "@{vertical=TOP; horizontal=LEFT}",
+                                                                          "effects":  "",
+                                                                          "interactions":  "",
+                                                                          "complexStrokeProperties":  "@{strokeType=BASIC}"
+                                                                      },
+                                                                      {
+                                                                          "id":  "899:15369",
+                                                                          "name":  "Group 1437254475",
+                                                                          "type":  "GROUP",
+                                                                          "scrollBehavior":  "SCROLLS",
+                                                                          "children":  "",
+                                                                          "blendMode":  "PASS_THROUGH",
+                                                                          "clipsContent":  false,
+                                                                          "background":  "",
+                                                                          "fills":  "",
+                                                                          "strokes":  "",
+                                                                          "cornerRadius":  16.0,
+                                                                          "cornerSmoothing":  0.0,
+                                                                          "strokeWeight":  1.0,
+                                                                          "strokeAlign":  "INSIDE",
+                                                                          "backgroundColor":  "@{r=0.0; g=0.0; b=0.0; a=0.0}",
+                                                                          "absoluteBoundingBox":  "@{x=194.0; y=-1051.0; width=697.0; height=255.0}",
+                                                                          "absoluteRenderBounds":  "@{x=194.0; y=-1051.0; width=697.0; height=255.0}",
+                                                                          "constraints":  "@{vertical=TOP; horizontal=LEFT}",
+                                                                          "effects":  "",
+                                                                          "interactions":  "",
+                                                                          "complexStrokeProperties":  "@{strokeType=BASIC}"
+                                                                      },
+                                                                      {
+                                                                          "id":  "899:15372",
+                                                                          "name":  "Frame 1912056669",
+                                                                          "type":  "FRAME",
+                                                                          "scrollBehavior":  "SCROLLS",
+                                                                          "children":  "          ",
+                                                                          "blendMode":  "PASS_THROUGH",
+                                                                          "clipsContent":  false,
+                                                                          "background":  "",
+                                                                          "fills":  "",
+                                                                          "strokes":  "",
+                                                                          "strokeWeight":  1.3664122819900513,
+                                                                          "strokeAlign":  "INSIDE",
+                                                                          "backgroundColor":  "@{r=0.0; g=0.0; b=0.0; a=0.0}",
+                                                                          "absoluteBoundingBox":  "@{x=218.0; y=-1013.0; width=649.92370605468750; height=233.45037841796875}",
+                                                                          "absoluteRenderBounds":  "@{x=218.0; y=-1013.0; width=649.92370605468750; height=233.45037841796875}",
+                                                                          "constraints":  "@{vertical=TOP; horizontal=LEFT}",
+                                                                          "effects":  "",
+                                                                          "interactions":  "",
+                                                                          "complexStrokeProperties":  "@{strokeType=BASIC}"
+                                                                      }
+                                                                  ],
+                                                     "blendMode":  "PASS_THROUGH",
+                                                     "clipsContent":  true,
+                                                     "background":  [
+                                                                        {
+                                                                            "blendMode":  "NORMAL",
+                                                                            "type":  "SOLID",
+                                                                            "color":  "@{r=0.93664091825485229; g=0.95331215858459473; b=0.98665469884872437; a=1.0}"
+                                                                        }
+                                                                    ],
+                                                     "fills":  [
+                                                                   {
+                                                                       "blendMode":  "NORMAL",
+                                                                       "type":  "SOLID",
+                                                                       "color":  "@{r=0.93664091825485229; g=0.95331215858459473; b=0.98665469884872437; a=1.0}"
+                                                                   }
+                                                               ],
+                                                     "strokes":  [
+
+                                                                 ],
+                                                     "strokeWeight":  1.0,
+                                                     "strokeAlign":  "INSIDE",
+                                                     "devStatus":  {
+                                                                       "type":  "READY_FOR_DEV",
+                                                                       "description":  ""
+                                                                   },
+                                                     "backgroundColor":  {
+                                                                             "r":  0.93664091825485229,
+                                                                             "g":  0.95331215858459473,
+                                                                             "b":  0.98665469884872437,
+                                                                             "a":  1.0
+                                                                         },
+                                                     "absoluteBoundingBox":  {
+                                                                                 "x":  0.0,
+                                                                                 "y":  -1208.0,
+                                                                                 "width":  1180.0,
+                                                                                 "height":  820.0
+                                                                             },
+                                                     "absoluteRenderBounds":  {
+                                                                                  "x":  0.0,
+                                                                                  "y":  -1208.0,
+                                                                                  "width":  1180.0,
+                                                                                  "height":  820.0
+                                                                              },
+                                                     "constraints":  {
+                                                                         "vertical":  "TOP",
+                                                                         "horizontal":  "LEFT"
+                                                                     },
+                                                     "exportSettings":  [
+                                                                            {
+                                                                                "suffix":  "",
+                                                                                "format":  "JPG",
+                                                                                "constraint":  "@{type=SCALE; value=4.0}"
+                                                                            }
+                                                                        ],
+                                                     "effects":  [
+
+                                                                 ],
+                                                     "interactions":  [
+
+                                                                      ],
+                                                     "complexStrokeProperties":  {
+                                                                                     "strokeType":  "BASIC"
+                                                                                 }
+                                                 },
+                                    "components":  {
+                                                       "2:44":  {
+                                                                    "key":  "667d9cb22677359e31b474b31ba2853732e03592",
+                                                                    "name":  "Property 1=首页, 选中=yes",
+                                                                    "description":  "",
+                                                                    "remote":  true,
+                                                                    "componentSetId":  "2:43",
+                                                                    "documentationLinks":  [
+
+                                                                                           ]
+                                                                },
+                                                       "2:46":  {
+                                                                    "key":  "6a87434db1eab1294b0d39889eb46f20bfdfd81a",
+                                                                    "name":  "Property 1=首页, 选中=no",
+                                                                    "description":  "",
+                                                                    "remote":  true,
+                                                                    "componentSetId":  "2:43",
+                                                                    "documentationLinks":  [
+
+                                                                                           ]
+                                                                },
+                                                       "2:50":  {
+                                                                    "key":  "525759236a6e059b9d1fa878f5600aa9b4d1960e",
+                                                                    "name":  "Property 1=AI对话, 选中=no",
+                                                                    "description":  "",
+                                                                    "remote":  true,
+                                                                    "componentSetId":  "2:43",
+                                                                    "documentationLinks":  [
+
+                                                                                           ]
+                                                                },
+                                                       "2:56":  {
+                                                                    "key":  "b8857771ce43237efceed7365b37e385ea80376b",
+                                                                    "name":  "Property 1=校园课件, 选中=no",
+                                                                    "description":  "",
+                                                                    "remote":  true,
+                                                                    "componentSetId":  "2:43",
+                                                                    "documentationLinks":  [
+
+                                                                                           ]
+                                                                },
+                                                       "2:70":  {
+                                                                    "key":  "f3766b8bc6514a8146281f06b7574b87a2d3935d",
+                                                                    "name":  "Property 1=视频中心, 选中=no",
+                                                                    "description":  "",
+                                                                    "remote":  true,
+                                                                    "componentSetId":  "2:43",
+                                                                    "documentationLinks":  [
+
+                                                                                           ]
+                                                                },
+                                                       "2:79":  {
+                                                                    "key":  "5c55de5defef33b31e1522b7b916e2a753f085b3",
+                                                                    "name":  "Property 1=智能停写, 选中=no",
+                                                                    "description":  "",
+                                                                    "remote":  true,
+                                                                    "componentSetId":  "2:43",
+                                                                    "documentationLinks":  [
+
+                                                                                           ]
+                                                                },
+                                                       "2:86":  {
+                                                                    "key":  "04d5f96f81c7c20c495417ad843fe8314b0364c7",
+                                                                    "name":  "Property 1=音乐伴侣, 选中=no",
+                                                                    "description":  "",
+                                                                    "remote":  true,
+                                                                    "componentSetId":  "2:43",
+                                                                    "documentationLinks":  [
+
+                                                                                           ]
+                                                                },
+                                                       "2:93":  {
+                                                                    "key":  "9a4caab967aa2f9fbd3c96c64f6b0c4c849c3276",
+                                                                    "name":  "Property 1=智慧校园, 选中=no",
+                                                                    "description":  "",
+                                                                    "remote":  true,
+                                                                    "componentSetId":  "2:43",
+                                                                    "documentationLinks":  [
+
+                                                                                           ]
+                                                                },
+                                                       "2:102":  {
+                                                                     "key":  "e57b2e85a5375e4387e78233d43ef8482b2ff7bc",
+                                                                     "name":  "Property 1=我的笔记, 选中=no",
+                                                                     "description":  "",
+                                                                     "remote":  true,
+                                                                     "componentSetId":  "2:43",
+                                                                     "documentationLinks":  [
+
+                                                                                            ]
+                                                                 },
+                                                       "2:110":  {
+                                                                     "key":  "aab40eba1f422200dd05b62699ad9b6616ab647c",
+                                                                     "name":  "Property 1=录音系统, 选中=no",
+                                                                     "description":  "",
+                                                                     "remote":  true,
+                                                                     "componentSetId":  "2:43",
+                                                                     "documentationLinks":  [
+
+                                                                                            ]
+                                                                 },
+                                                       "2:114":  {
+                                                                     "key":  "83848c8eb45048a683b54f88d3e1dcd1eb33a0ca",
+                                                                     "name":  "Property 1=我的收藏, 选中=no",
+                                                                     "description":  "",
+                                                                     "remote":  true,
+                                                                     "componentSetId":  "2:43",
+                                                                     "documentationLinks":  [
+
+                                                                                            ]
+                                                                 },
+                                                       "2:118":  {
+                                                                     "key":  "c7508a2e3ac2a69fa2c5a94a870cccd928e7d52f",
+                                                                     "name":  "Property 1=个人中心, 选中=no",
+                                                                     "description":  "",
+                                                                     "remote":  true,
+                                                                     "componentSetId":  "2:43",
+                                                                     "documentationLinks":  [
+
+                                                                                            ]
+                                                                 },
+                                                       "6:300":  {
+                                                                     "key":  "cf444baa519b00e5147ac100ee53f8a89d58eac4",
+                                                                     "name":  "Iconly/Regular/Outline/Notification",
+                                                                     "description":  "",
+                                                                     "remote":  true,
+                                                                     "documentationLinks":  [
+
+                                                                                            ]
+                                                                 },
+                                                       "6:308":  {
+                                                                     "key":  "646b50c9225efb254d09f4bc82434fd7487fb3d8",
+                                                                     "name":  "Iconly/Regular/Outline/Setting",
+                                                                     "description":  "",
+                                                                     "remote":  true,
+                                                                     "documentationLinks":  [
+
+                                                                                            ]
+                                                                 },
+                                                       "6:318":  {
+                                                                     "key":  "4687633d737c4c24cb0b17aad11e606352168bf4",
+                                                                     "name":  "Iconly/Regular/Outline/Scan",
+                                                                     "description":  "",
+                                                                     "remote":  true,
+                                                                     "documentationLinks":  [
+
+                                                                                            ]
+                                                                 },
+                                                       "400:331":  {
+                                                                       "key":  "465a5d421e74b9013d6c44ec88c842363ec72a78",
+                                                                       "name":  "Bold Duotone / List / Playlist 2 ",
+                                                                       "description":  "",
+                                                                       "remote":  false,
+                                                                       "documentationLinks":  [
+
+                                                                                              ]
+                                                                   },
+                                                       "401:392":  {
+                                                                       "key":  "709bb8e340132074870f2e284d306faf554f239a",
+                                                                       "name":  "Bold Duotone / Time / Calendar Add",
+                                                                       "description":  "",
+                                                                       "remote":  false,
+                                                                       "documentationLinks":  [
+
+                                                                                              ]
+                                                                   },
+                                                       "401:356":  {
+                                                                       "key":  "4591e4b22d48972e01d47ab9bb7064e3f2078a3f",
+                                                                       "name":  "Bold Duotone / Notes / Clipboard Check",
+                                                                       "description":  "",
+                                                                       "remote":  false,
+                                                                       "documentationLinks":  [
+
+                                                                                              ]
+                                                                   },
+                                                       "401:361":  {
+                                                                       "key":  "095158f98f2aee072475d10874f36a269ba144a9",
+                                                                       "name":  "Bold Duotone / Notes / Notebook ",
+                                                                       "description":  "",
+                                                                       "remote":  false,
+                                                                       "documentationLinks":  [
+
+                                                                                              ]
+                                                                   },
+                                                       "401:368":  {
+                                                                       "key":  "3db3bcf12a6c6e610047a4f4ee61e6c8dd0721f6",
+                                                                       "name":  "Bold Duotone / List / Checklist Minimalistic",
+                                                                       "description":  "",
+                                                                       "remote":  false,
+                                                                       "documentationLinks":  [
+
+                                                                                              ]
+                                                                   },
+                                                       "401:373":  {
+                                                                       "key":  "4807f29afdcd3e460852cd27a04d9ca8e650505a",
+                                                                       "name":  "Bold Duotone / Notes / Notes",
+                                                                       "description":  "",
+                                                                       "remote":  true,
+                                                                       "documentationLinks":  [
+
+                                                                                              ]
+                                                                   },
+                                                       "401:386":  {
+                                                                       "key":  "243b8a6d117607e7bd96825982de93ce4a14986a",
+                                                                       "name":  "Bold Duotone / Users / Users Group Rounded",
+                                                                       "description":  "",
+                                                                       "remote":  false,
+                                                                       "documentationLinks":  [
+
+                                                                                              ]
+                                                                   },
+                                                       "401:401":  {
+                                                                       "key":  "2668d794891e6d4e947ed467975cba6e9aab0f52",
+                                                                       "name":  "Bold Duotone / Messages, Conversation  /  Letter",
+                                                                       "description":  "",
+                                                                       "remote":  false,
+                                                                       "documentationLinks":  [
+
+                                                                                              ]
+                                                                   },
+                                                       "401:397":  {
+                                                                       "key":  "7b3eb41e15fe4fc141884378e969b90759b0d2dc",
+                                                                       "name":  "Bold Duotone / Messages, Conversation / Dialog",
+                                                                       "description":  "",
+                                                                       "remote":  false,
+                                                                       "documentationLinks":  [
+
+                                                                                              ]
+                                                                   },
+                                                       "401:381":  {
+                                                                       "key":  "982023550ca1f8fa1f6196ecbc038b1f97abd881",
+                                                                       "name":  "Bold Duotone / Like / Medal Ribbon Star",
+                                                                       "description":  "",
+                                                                       "remote":  false,
+                                                                       "documentationLinks":  [
+
+                                                                                              ]
+                                                                   }
+                                                   },
+                                    "componentSets":  {
+                                                          "2:43":  {
+                                                                       "key":  "c478fc139aea53f804f03d4576c5bcac61e7e236",
+                                                                       "name":  "首页",
+                                                                       "description":  "",
+                                                                       "remote":  true
+                                                                   }
+                                                      },
+                                    "schemaVersion":  0,
+                                    "styles":  {
+                                                   "3:244":  {
+                                                                 "key":  "9d25b34d40965fe0f9cbcc7ac48f0e2da49082ae",
+                                                                 "name":  "一级黑",
+                                                                 "styleType":  "FILL",
+                                                                 "remote":  false,
+                                                                 "description":  ""
+                                                             },
+                                                   "6:299":  {
+                                                                 "key":  "8bf7c4ab3f050c6761714731c2675240df586a8f",
+                                                                 "name":  "三级黑",
+                                                                 "styleType":  "FILL",
+                                                                 "remote":  true,
+                                                                 "description":  ""
+                                                             },
+                                                   "6:221":  {
+                                                                 "key":  "3caebe71fd16da486ec58edeca67a0dc79c30a1a",
+                                                                 "name":  "一级黑",
+                                                                 "styleType":  "FILL",
+                                                                 "remote":  true,
+                                                                 "description":  ""
+                                                             },
+                                                   "4:87":  {
+                                                                "key":  "190ad32680a04dff35716a8eb55760d59b9e4f10",
+                                                                "name":  "纯白色",
+                                                                "styleType":  "FILL",
+                                                                "remote":  false,
+                                                                "description":  ""
+                                                            },
+                                                   "4:79":  {
+                                                                "key":  "9927d01ad56d401131984d139b4dee34db24fc97",
+                                                                "name":  "二级黑",
+                                                                "styleType":  "FILL",
+                                                                "remote":  false,
+                                                                "description":  ""
+                                                            },
+                                                   "255:2708":  {
+                                                                    "key":  "e22116b1735778743a46a67cb136f1b7a1480540",
+                                                                    "name":  "次级标题",
+                                                                    "styleType":  "FILL",
+                                                                    "remote":  true,
+                                                                    "description":  ""
+                                                                },
+                                                   "294:3526":  {
+                                                                    "key":  "10f03961f3a8e91891a4ef39d74b1b9d0cdb2170",
+                                                                    "name":  "纯白色",
+                                                                    "styleType":  "FILL",
+                                                                    "remote":  true,
+                                                                    "description":  ""
+                                                                },
+                                                   "4:98":  {
+                                                                "key":  "09f67a61730aaf88d34621216598f27065a85c89",
+                                                                "name":  "边框",
+                                                                "styleType":  "FILL",
+                                                                "remote":  false,
+                                                                "description":  ""
+                                                            },
+                                                   "238:3709":  {
+                                                                    "key":  "101456bdbae865ffdd27f20c94fce7fac56c00b9",
+                                                                    "name":  "次级标题",
+                                                                    "styleType":  "FILL",
+                                                                    "remote":  false,
+                                                                    "description":  ""
+                                                                },
+                                                   "6:86":  {
+                                                                "key":  "0f63a8af88dec56a4b5e43a88d945fab0c57e217",
+                                                                "name":  "三级黑",
+                                                                "styleType":  "FILL",
+                                                                "remote":  false,
+                                                                "description":  ""
+                                                            },
+                                                   "53:1447":  {
+                                                                   "key":  "26262615f231b17abd9eee8c574b98c2fc2adacc",
+                                                                   "name":  "警告红",
+                                                                   "styleType":  "FILL",
+                                                                   "remote":  false,
+                                                                   "description":  ""
+                                                               },
+                                                   "3:246":  {
+                                                                 "key":  "218040512811b16cf4587b33f7afec0c90cbc1cf",
+                                                                 "name":  "品牌色",
+                                                                 "styleType":  "FILL",
+                                                                 "remote":  false,
+                                                                 "description":  ""
+                                                             },
+                                                   "901:19029":  {
+                                                                     "key":  "bc3511d35998a4474e1a021eb6e685fb903ab2b4",
+                                                                     "name":  "1",
+                                                                     "styleType":  "FILL",
+                                                                     "remote":  false,
+                                                                     "description":  ""
+                                                                 },
+                                                   "400:338":  {
+                                                                   "key":  "35dc9952f7c4c7cf5509b83f743a6c43fbc9848b",
+                                                                   "name":  "icon",
+                                                                   "styleType":  "FILL",
+                                                                   "remote":  true,
+                                                                   "description":  ""
+                                                               }
+                                               }
+                                }
+              }
+}
